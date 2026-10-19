@@ -13,7 +13,7 @@ def insertion_sort(lista):
         
     return lista
 
-print("Introdu numerele pe care vrei sa le sortezi, separate prin spatiu (ex: 5 2 9 1):")
+print("Introdu numerele pe care vrei sa le sortezi, separate prin spatiu:")
 date_intrare = input()
 
 numere = [int(x) for x in date_intrare.split()]
